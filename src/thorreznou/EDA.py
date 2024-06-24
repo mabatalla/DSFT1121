@@ -283,7 +283,6 @@ def process_color(channel_value, bins):
     bins -- number of colours to reduce each layer (total colors = bins^3)
     '''
     
-    ######################################
     if channel_value >= 255: 
         processed_value = 255
     else:
